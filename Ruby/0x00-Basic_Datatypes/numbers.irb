@@ -1,0 +1,16 @@
+#!/usr/bin/ruby
+a = 8
+b = 7
+puts ("#{a} + #{b} = #{a + b}")
+puts ("#{a} - #{b} = #{a - b}")
+puts ("#{a} * #{b} = #{a * b}")
+
+puts ("Exponent #{a} ^ #{b} = #{a ** b}")
+
+puts ("#{a} / #{b} = #{a / b}")
+puts ("modulus : remainder #{a} / #{b} = #{a % b}")
+
+puts ("Integer operation result in integer: #{a} / #{b} = #{a / b}")
+puts ("To get decimals #{a} / 7.0 = #{a / 7.0}")
+
+puts ("a.even?: #{a.even?} b.odd?: #{b.odd?}")
